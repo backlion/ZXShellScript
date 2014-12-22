@@ -1,0 +1,1 @@
+for apk in *.apk;do adb install "$apk";echo "$apk" install;done
