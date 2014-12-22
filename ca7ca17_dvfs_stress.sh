@@ -1,10 +1,10 @@
 #Author：Issac Lin
 #Ext: 7536
-#version:1.1
+#version:1.2
 #ca7ca17_dvfs_stress
 #log_location:/data/ca7ca17_dvfs_stress.log
 #
-echo "ca7ca17_dvfs_stress version: 1.1"
+echo "ca7ca17_dvfs_stress version: 1.2"
 if test -z $1
 then
 	echo "You must input a video"
@@ -13,12 +13,12 @@ else
 	then
 		echo "You must input the time of video in seconds"
 	else
-		echo interactive > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
-		echo interactive > /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor
 		echo '/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq set to 1400000' 
 		echo '/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq set to 1800000' 
 		echo 1400000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
 		echo 1800000 > /sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq
+		echo interactive > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+		echo interactive > /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor
 		while true
 		do
 			videoTime=10
