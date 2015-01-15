@@ -1,0 +1,9 @@
+install "C:\Users\issaclin\Desktop\Newfolder\compress_v1.0.apk" 
+	pkg: /data/local/tmp/compress_v1.0.apk
+Success
+install "C:\Users\issaclin\Desktop\Newfolder\sensor_box_v1.5.apk" 
+	pkg: /data/local/tmp/sensor_box_v1.5.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "C:\Users\issaclin\Desktop\Newfolder\说东方闪电.apk" 
+	pkg: /data/local/tmp/说娅讽墎濮產pk
+Failure [INSTALL_FAILED_INVALID_URI]

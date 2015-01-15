@@ -17,6 +17,7 @@ if exist %1\Android adb push %1\Android /sdcard/Android
 ::set /a count+=1
 if exist batch_install.log del /F /Q batch_install.log
 for %%i in (%1\*.apk) do (
+	echo install "%%i" >> batch_install.log
 	adb install "%%i" >> batch_install.log
 )
 for /f %%t in ('findstr pkg batch_install.log') do (
@@ -28,8 +29,12 @@ for /f %%t in ('findstr Success batch_install.log') do (
 for /f %%t in ('findstr INSTALL_FAILED_ALREADY_EXISTS batch_install.log') do (
 	set /a already+=1
 )
-if exist batch_install.log del /F /Q batch_install.log
+for /f %%t in ('findstr INSTALL_FAILED batch_install.log') do (
+	findstr /v INSTALL_FAILED_ALREADY_EXISTS %%t
+)
+::if exist batch_install.log del /F /Q batch_install.log
 set /a fail=%total%-%success%-%already%
+type batch_install.log
 echo finish batch_install
 echo total install %total% apk
 echo success install %success% apk,already install %already% apk
