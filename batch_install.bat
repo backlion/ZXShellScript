@@ -1,6 +1,6 @@
 ::Author：Issac Lin
 ::Ext: 7536
-::version:1.1
+::version:1.2
 ::batch_install
 ::
 @echo off
@@ -13,6 +13,9 @@ set fail=0
 if "%1"=="" goto :input
 
 if exist %1\Android adb push %1\Android /sdcard/Android
+echo finish copy Android folder
+if exist %1\gameloft adb push %1\gameloft /sdcard/gameloft
+echo finish copy gameloft folder
 ::if exist %1\android adb push %1\Android /sdcard/Android
 ::set /a count+=1
 if exist batch_install.log del /F /Q batch_install.log

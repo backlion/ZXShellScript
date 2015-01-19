@@ -1,9 +1,108 @@
-install "C:\Users\issaclin\Desktop\Newfolder\compress_v1.0.apk" 
-	pkg: /data/local/tmp/compress_v1.0.apk
+install "C:\Users\issaclin\Desktop\BA_Game\048_MikeV-Skateboard_Party_Lite_V1.01 .apk" 
+	pkg: /data/local/tmp/048_MikeV-Skateboard_Party_Lite_V1.01 .apk
 Success
-install "C:\Users\issaclin\Desktop\Newfolder\sensor_box_v1.5.apk" 
-	pkg: /data/local/tmp/sensor_box_v1.5.apk
-Failure [INSTALL_FAILED_ALREADY_EXISTS]
-install "C:\Users\issaclin\Desktop\Newfolder\说东方闪电.apk" 
-	pkg: /data/local/tmp/说娅讽墎濮產pk
-Failure [INSTALL_FAILED_INVALID_URI]
+install "C:\Users\issaclin\Desktop\BA_Game\125_Flight_Simulator_3D_ 1.2.apk" 
+	pkg: /data/local/tmp/125_Flight_Simulator_3D_ 1.2.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\23_Machinarium_V2.0.04_air.net.machinarium.Machinarium.GP.apk" 
+	pkg: /data/local/tmp/23_Machinarium_V2.0.04_air.net.machinarium.Machinarium.GP.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\338_fishing3Donboat.apk" 
+	pkg: /data/local/tmp/338_fishing3Donboat.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\441_Robot Unicorn Attack 2_1.1.2.apk" 
+	pkg: /data/local/tmp/441_Robot Unicorn Attack 2_1.1.2.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\492_Pool_Rebel_Lite_V5.94.apk" 
+	pkg: /data/local/tmp/492_Pool_Rebel_Lite_V5.94.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\55_Call of Duty Black Ops Zombies 1.0.5.apk" 
+	pkg: /data/local/tmp/55_Call of Duty Black Ops Zombies 1.0.5.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\67_F-Sim Space Shuttle 2.2.074.apk" 
+	pkg: /data/local/tmp/67_F-Sim Space Shuttle 2.2.074.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\69_The Secret of Grisly Manor 2.1.apk" 
+	pkg: /data/local/tmp/69_The Secret of Grisly Manor 2.1.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\73_C.H.A.O.S. 5.0.3.apk" 
+	pkg: /data/local/tmp/73_C.H.A.O.S. 5.0.3.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\81_Raging Thunder 2 HD 1.0.5.apk" 
+	pkg: /data/local/tmp/81_Raging Thunder 2 HD 1.0.5.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Angry Bots Demo(Unity3D) v1.3.apk" 
+	pkg: /data/local/tmp/Angry Bots Demo(Unity3D) v1.3.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Anomaly_2_Benchmark 1.1.apk" 
+	pkg: /data/local/tmp/Anomaly_2_Benchmark 1.1.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Avengers_Alliance_V3.1com.marvel.avengersalliance_goo.apk" 
+	pkg: /data/local/tmp/Avengers_Alliance_V3.1com.marvel.avengersalliance_goo.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Devil_Ninja_2(Mission)_V2.0.3.apk" 
+	pkg: /data/local/tmp/Devil_Ninja_2(Mission)_V2.0.3.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\FINAL_FANTASY_III_V1.0.7.apk" 
+	pkg: /data/local/tmp/FINAL_FANTASY_III_V1.0.7.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Grand_Theft_Auto_3_v1.1.apk" 
+	pkg: /data/local/tmp/Grand_Theft_Auto_3_v1.1.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\GT_Racing_Motor_Academy_Free_v1.40forliehuzuo.apk" 
+	pkg: /data/local/tmp/GT_Racing_Motor_Academy_Free_v1.40forliehuzuo.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Gun_Blood_V1.08.apk" 
+	pkg: /data/local/tmp/Gun_Blood_V1.08.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Highway_Rider_V1.4.5.apk" 
+	pkg: /data/local/tmp/Highway_Rider_V1.4.5.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Injustice_Gods_Among_Us_V1.3.3_com.wb.goog.injustice.apk" 
+	pkg: /data/local/tmp/Injustice_Gods_Among_Us_V1.3.3_com.wb.goog.injustice.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Into_the_Dead_V1.7_com.sidheinteractive.sif.DR.apk" 
+	pkg: /data/local/tmp/Into_the_Dead_V1.7_com.sidheinteractive.sif.DR.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Max_Payne_Mobile_V1.2.apk" 
+	pkg: /data/local/tmp/Max_Payne_Mobile_V1.2.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\NBA_2K14_V1.0.apk" 
+	pkg: /data/local/tmp/NBA_2K14_V1.0.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\NinJump_Delux_V1.0.2_com.backflipstudios.android.ninjumpdeluxe.apk" 
+	pkg: /data/local/tmp/NinJump_Delux_V1.0.2_com.backflipstudios.android.ninjumpdeluxe.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Penalty_Shootout_Football_V1.0.3.apk" 
+	pkg: /data/local/tmp/Penalty_Shootout_Football_V1.0.3.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\RacingMotor_V1.2.6.apk" 
+	pkg: /data/local/tmp/RacingMotor_V1.2.6.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Raging_Thunder_2HD_V1.0.13.apk" 
+	pkg: /data/local/tmp/Raging_Thunder_2HD_V1.0.13.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\RoboCop_V2.0.1_com.glu.robocop.apk" 
+	pkg: /data/local/tmp/RoboCop_V2.0.1_com.glu.robocop.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Six-Guns_V1.8.1_com.gameloft.android.ANMP.GloftSXHM.apk" 
+	pkg: /data/local/tmp/Six-Guns_V1.8.1_com.gameloft.android.ANMP.GloftSXHM.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Sonic_Dash_V1.10.2.Go_com.sega.sonicdash.apk" 
+	pkg: /data/local/tmp/Sonic_Dash_V1.10.2.Go_com.sega.sonicdash.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Speed_Moto_V1.1.6.apk" 
+	pkg: /data/local/tmp/Speed_Moto_V1.1.6.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Strike_Fleet_Omega_V1.4.2.apk" 
+	pkg: /data/local/tmp/Strike_Fleet_Omega_V1.4.2.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Thor_TDW-The_Official_Game_V1.2.0n_com.gameloft.android.ANMP.GloftTRHM.apk" 
+	pkg: /data/local/tmp/Thor_TDW-The_Official_Game_V1.2.0n_com.gameloft.android.ANMP.GloftTRHM.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Trial_Xtreme_2_Winter_V2.20.apk" 
+	pkg: /data/local/tmp/Trial_Xtreme_2_Winter_V2.20.apk
+Success
+install "C:\Users\issaclin\Desktop\BA_Game\Zynga_Poker_V6.21.apk" 
+	pkg: /data/local/tmp/Zynga_Poker_V6.21.apk
+Success
