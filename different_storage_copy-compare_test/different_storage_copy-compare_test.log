@@ -1,0 +1,170 @@
+different_storage_copy-compare_test version: 1.1
+remove temp files
+finish install busybox
+detected SD card
+detected USB flash disk
+### Detect Mode ###
+----------------------------------------------------
+emmc part
+////////////////////////////////
+start emmc to emmc test|copy /data/different_storage_copy-compare_test/CPFILE folder to /sdcard
+Sat Jan  1 00:21:18 GMT 2000
+    0m12.52s real     0m0.01s user     0m2.52s system
+finish copy /data/different_storage_copy-compare_test/CPFILE folder to /sdcard
+Sat Jan  1 00:21:30 GMT 2000
+start compare /data/different_storage_copy-compare_test/CPFILE and /sdcard/CPFILE
+Sat Jan  1 00:21:30 GMT 2000
+    0m6.81s real     0m2.27s user     0m1.98s system
+pass:compare /data/different_storage_copy-compare_test/CPFILE and /sdcard/CPFILE
+Sat Jan  1 00:21:37 GMT 2000
+Sat Jan  1 00:21:37 GMT 2000
+***Please make sure that video at /sdcard/CPFILE can play normally***
+***wait for check video play at /sdcard/CPFILE ,press any key to continue***
+***continue test***
+Sat Jan  1 00:21:45 GMT 2000
+finish emmc to emmc test
+////////////////////////////////
+start emmc to SD test|copy /data/different_storage_copy-compare_test/CPFILE folder to /storage/extsdcard
+Sat Jan  1 00:21:45 GMT 2000
+    0m13.35s real     0m0.03s user     0m1.96s system
+finish copy /data/different_storage_copy-compare_test/CPFILE folder to /storage/extsdcard
+Sat Jan  1 00:21:59 GMT 2000
+start compare /data/different_storage_copy-compare_test/CPFILE and /storage/extsdcard/CPFILE
+Sat Jan  1 00:21:59 GMT 2000
+    0m6.88s real     0m2.33s user     0m1.67s system
+pass:compare /data/different_storage_copy-compare_test/CPFILE and /storage/extsdcard/CPFILE
+Sat Jan  1 00:22:06 GMT 2000
+Sat Jan  1 00:22:06 GMT 2000
+***Please make sure that video at /storage/extsdcard/CPFILE can play normally***
+***wait for check video play at /storage/extsdcard/CPFILE ,press any key to continue***
+***continue test***
+Sat Jan  1 00:22:07 GMT 2000
+finish emmc to SD test
+////////////////////////////////
+start emmc to USB flash disk test|copy /data/different_storage_copy-compare_test/CPFILE folder to /storage/usbdisk1
+Sat Jan  1 00:22:07 GMT 2000
+    1m56.75s real     0m0.00s user     0m3.36s system
+finish copy /data/different_storage_copy-compare_test/CPFILE folder to /storage/usbdisk1
+Sat Jan  1 00:24:04 GMT 2000
+start compare copy /data/different_storage_copy-compare_test/CPFILE folder and /storage/usbdisk1
+Sat Jan  1 00:24:04 GMT 2000
+    1m13.41s real     0m1.48s user     0m0.89s system
+pass:compare /data/different_storage_copy-compare_test/CPFILE and /storage/usbdisk1/CPFILE
+Sat Jan  1 00:25:18 GMT 2000
+Sat Jan  1 00:25:18 GMT 2000
+***Please make sure that video at /storage/usbdisk1/CPFILE can play normally***
+***wait for check video play at /storage/usbdisk1/CPFILE ,press any key to continue***
+***continue test***
+Sat Jan  1 00:39:12 GMT 2000
+finish emmc to USB flash disk test
+----------------------------------------------------
+SD part
+////////////////////////////////
+delete /sdcard/CPFILE
+start SD to emmc test|copy /storage/extsdcard/CPFILE to /sdcard
+Sat Jan  1 00:39:13 GMT 2000
+    0m9.27s real     0m0.02s user     0m2.32s system
+finish copy /storage/extsdcard/CPFILE to /sdcard
+Sat Jan  1 00:39:22 GMT 2000
+start compare /storage/extsdcard/CPFILE and /sdcard/CPFILE
+Sat Jan  1 00:39:22 GMT 2000
+    0m9.96s real     0m2.43s user     0m2.35s system
+pass:compare /storage/extsdcard/CPFILE and /sdcard/CPFILE
+Sat Jan  1 00:39:32 GMT 2000
+Sat Jan  1 00:39:32 GMT 2000
+***Please make sure that video at /sdcard/CPFILE can play normally***
+***wait for check video play at /sdcard/CPFILE ,press any key to continue***
+***continue test***
+Sat Jan  1 00:39:45 GMT 2000
+finish SD to emmc test
+////////////////////////////////
+start SD to SD test|copy /storage/extsdcard/CPFILE to /storage/extsdcard/CPTEMP
+Sat Jan  1 00:39:45 GMT 2000
+    0m22.79s real     0m0.00s user     0m2.40s system
+finish copy /storage/extsdcard/CPFILE to /storage/extsdcard/CPTEMP
+Sat Jan  1 00:40:07 GMT 2000
+start compare /storage/extsdcard/CPFILE and /storage/extsdcard/CPTEMP
+Sat Jan  1 00:40:07 GMT 2000
+    0m14.00s real     0m2.54s user     0m2.15s system
+pass:compare /storage/extsdcard/CPFILE and /storage/extsdcard/CPTEMP
+Sat Jan  1 00:40:21 GMT 2000
+Sat Jan  1 00:40:21 GMT 2000
+***Please make sure that video at /storage/extsdcard/CPTEMP can play normally***
+***wait for check video play at /storage/extsdcard/CPTEMP ,press any key to continue***
+***continue test***
+Sat Jan  1 00:40:30 GMT 2000
+finish SD to SD test
+////////////////////////////////
+delete /storage/usbdisk1/CPFILE
+start SD to USB flash disk test|copy /storage/extsdcard/CPFILE folder to /storage/usbdisk1
+Sat Jan  1 00:40:31 GMT 2000
+    3m10.88s real     0m0.00s user     0m4.42s system
+finish copy /storage/extsdcard/CPFILE folder to /storage/usbdisk1
+Sat Jan  1 00:43:41 GMT 2000
+start compare /storage/extsdcard/CPFILE and /storage/usbdisk1/CPFILE
+Sat Jan  1 00:43:41 GMT 2000
+    0m5.67s real     0m1.85s user     0m1.54s system
+pass:compare /storage/extsdcard/CPFILE and /storage/usbdisk1/CPFILE
+Sat Jan  1 00:43:47 GMT 2000
+Sat Jan  1 00:43:47 GMT 2000
+***Please make sure that video at /storage/usbdisk1/CPFILE can play normally***
+***wait for check video play at /storage/usbdisk1/CPFILE ,press any key to continue***
+***continue test***
+Sat Jan  1 00:43:47 GMT 2000
+finish SD to USB flash disk test
+----------------------------------------------------
+USB flash disk part
+////////////////////////////////
+delete /sdcard/CPFILE
+start USB flash disk to emmc test|copy /storage/usbdisk1/CPFILE to /sdcard
+Sat Jan  1 00:43:47 GMT 2000
+    0m8.23s real     0m0.03s user     0m1.83s system
+finish copy /storage/usbdisk1/CPFILE to /sdcard
+Sat Jan  1 00:43:56 GMT 2000
+start compare /storage/usbdisk1/CPFILE and /sdcard/CPFILE
+Sat Jan  1 00:43:56 GMT 2000
+    0m5.92s real     0m2.02s user     0m1.52s system
+pass:compare /storage/usbdisk1/CPFILE and /sdcard/CPFILE
+Sat Jan  1 00:44:02 GMT 2000
+Sat Jan  1 00:44:02 GMT 2000
+***Please make sure that video at /sdcard/CPFILE can play normally***
+***wait for check video play at /sdcard/CPFILE ,press any key to continue***
+***continue test***
+Sat Jan  1 00:44:02 GMT 2000
+finish USB flash disk to emmc test
+////////////////////////////////
+delete /storage/extsdcard/CPFILE
+start USB flash disk to SD test|copy /storage/usbdisk1/CPFILE to /storage/extsdcard/CPFILE
+Sat Jan  1 00:44:02 GMT 2000
+    0m13.83s real     0m0.02s user     0m1.94s system
+finish copy /storage/usbdisk1/CPFILE to /storage/extsdcard/CPFILE
+Sat Jan  1 00:44:16 GMT 2000
+start compare /storage/usbdisk1/CPFILE and /storage/extsdcard/CPFILE
+Sat Jan  1 00:44:16 GMT 2000
+    0m5.95s real     0m2.07s user     0m1.51s system
+pass:compare /storage/usbdisk1/CPFILE and /storage/extsdcard/CPFILE
+Sat Jan  1 00:44:22 GMT 2000
+Sat Jan  1 00:44:22 GMT 2000
+***Please make sure that video at /storage/extsdcard/CPFILE can play normally***
+***wait for check video play at /storage/extsdcard/CPFILE ,press any key to continue***
+***continue test***
+Sat Jan  1 00:44:59 GMT 2000
+finish USB flash disk to SD test
+////////////////////////////////
+start USB flash disk to USB flash disk test|copy /storage/extsdcard/CPFILE folder to /storage/usbdisk1/CPTEMP
+Sat Jan  1 00:44:59 GMT 2000
+    2m0.42s real     0m0.00s user     0m3.06s system
+finish copy /storage/usbdisk1/CPFILE folder to /storage/usbdisk1/CPTEMP
+Sat Jan  1 00:46:59 GMT 2000
+start compare /storage/usbdisk1/CPFILE and /storage/usbdisk1/CPTEMP
+Sat Jan  1 00:46:59 GMT 2000
+    0m1.67s real     0m0.87s user     0m0.80s system
+pass:compare /storage/usbdisk1/CPFILE and /storage/usbdisk1/CPTEMP
+Sat Jan  1 00:47:01 GMT 2000
+Sat Jan  1 00:47:01 GMT 2000
+***Please make sure that video at /storage/usbdisk1/CPTEMP can play normally***
+***wait for check video play at /storage/usbdisk1/CPTEMP ,press any key to continue***
+***continue test***
+Sat Jan  1 00:47:03 GMT 2000
+finish USB flash disk to USB flash disk test
+finish different_storage_copy-compare_test
