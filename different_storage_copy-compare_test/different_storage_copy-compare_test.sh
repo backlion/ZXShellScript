@@ -257,6 +257,6 @@ fi
 echo "finish different_storage_copy-compare_test"
 echo "finish different_storage_copy-compare_test" >> /data/different_storage_copy-compare_test/different_storage_copy-compare_test.log
 echo "////////////////////////////////////////////////////////////////"
-echo "result:"
-cat different_storage_copy-compare_test.log
+#echo "result:"
+#cat different_storage_copy-compare_test.log
 echo "you can open different_storage_copy-compare_test.log to check test result"
