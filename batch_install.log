@@ -1,3 +1,18 @@
-install "C:\Users\issaclin\Desktop\Epoch\Epoch.v1.5.0.apk" 
-	pkg: /data/local/tmp/Epoch.v1.5.0.apk
+install "C:\Users\issaclin\Desktop\pre-test\com.dotgears.swing.apk" 
+	pkg: /data/local/tmp/com.dotgears.swing.apk
+Success
+install "C:\Users\issaclin\Desktop\pre-test\com.robotinvader.cybergon.apk" 
+	pkg: /data/local/tmp/com.robotinvader.cybergon.apk
+Success
+install "C:\Users\issaclin\Desktop\pre-test\SensorDataActivity.apk" 
+	pkg: /data/local/tmp/SensorDataActivity.apk
+Success
+install "C:\Users\issaclin\Desktop\pre-test\sensor_box_v1.5.apk" 
+	pkg: /data/local/tmp/sensor_box_v1.5.apk
+Success
+install "C:\Users\issaclin\Desktop\pre-test\Talking_Tom_Cat_2_v1_0.apk" 
+	pkg: /data/local/tmp/Talking_Tom_Cat_2_v1_0.apk
+Success
+install "C:\Users\issaclin\Desktop\pre-test\TheChase_V1_1.apk" 
+	pkg: /data/local/tmp/TheChase_V1_1.apk
 Success
