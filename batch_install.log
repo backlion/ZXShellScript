@@ -1,18 +1,307 @@
-install "C:\Users\issaclin\Desktop\pre-test\com.dotgears.swing.apk" 
-	pkg: /data/local/tmp/com.dotgears.swing.apk
-Success
-install "C:\Users\issaclin\Desktop\pre-test\com.robotinvader.cybergon.apk" 
-	pkg: /data/local/tmp/com.robotinvader.cybergon.apk
-Success
-install "C:\Users\issaclin\Desktop\pre-test\SensorDataActivity.apk" 
-	pkg: /data/local/tmp/SensorDataActivity.apk
-Success
-install "C:\Users\issaclin\Desktop\pre-test\sensor_box_v1.5.apk" 
-	pkg: /data/local/tmp/sensor_box_v1.5.apk
-Success
-install "C:\Users\issaclin\Desktop\pre-test\Talking_Tom_Cat_2_v1_0.apk" 
-	pkg: /data/local/tmp/Talking_Tom_Cat_2_v1_0.apk
-Success
-install "C:\Users\issaclin\Desktop\pre-test\TheChase_V1_1.apk" 
-	pkg: /data/local/tmp/TheChase_V1_1.apk
-Success
+install "G:\PVRSDK_OGLES3\OGLES2AlphaBlend-debug.apk" 
+	pkg: /data/local/tmp/OGLES2AlphaBlend-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2AlphaTest-debug.apk" 
+	pkg: /data/local/tmp/OGLES2AlphaTest-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2AnisotropicLighting-debug.apk" 
+	pkg: /data/local/tmp/OGLES2AnisotropicLighting-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2BasicTnL-debug.apk" 
+	pkg: /data/local/tmp/OGLES2BasicTnL-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2BinaryShader-debug.apk" 
+	pkg: /data/local/tmp/OGLES2BinaryShader-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2Bloom-debug.apk" 
+	pkg: /data/local/tmp/OGLES2Bloom-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2Bumpmap-debug.apk" 
+	pkg: /data/local/tmp/OGLES2Bumpmap-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2CellShading-debug.apk" 
+	pkg: /data/local/tmp/OGLES2CellShading-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2ChameleonMan-debug.apk" 
+	pkg: /data/local/tmp/OGLES2ChameleonMan-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2ComplexLighting-debug.apk" 
+	pkg: /data/local/tmp/OGLES2ComplexLighting-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2Coverflow-debug.apk" 
+	pkg: /data/local/tmp/OGLES2Coverflow-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2DeferredShading-debug.apk" 
+	pkg: /data/local/tmp/OGLES2DeferredShading-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2DisplacementMap-debug.apk" 
+	pkg: /data/local/tmp/OGLES2DisplacementMap-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2EdgeDetection-debug.apk" 
+	pkg: /data/local/tmp/OGLES2EdgeDetection-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2ExampleUI-debug.apk" 
+	pkg: /data/local/tmp/OGLES2ExampleUI-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2FastTnL-debug.apk" 
+	pkg: /data/local/tmp/OGLES2FastTnL-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2FilmTV-debug.apk" 
+	pkg: /data/local/tmp/OGLES2FilmTV-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2Fog-debug.apk" 
+	pkg: /data/local/tmp/OGLES2Fog-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2Fractal-debug.apk" 
+	pkg: /data/local/tmp/OGLES2Fractal-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2FresnelReflections-debug.apk" 
+	pkg: /data/local/tmp/OGLES2FresnelReflections-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2HelloAPI-debug.apk" 
+	pkg: /data/local/tmp/OGLES2HelloAPI-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2IntroducingPFX-debug.apk" 
+	pkg: /data/local/tmp/OGLES2IntroducingPFX-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2IntroducingPOD-debug.apk" 
+	pkg: /data/local/tmp/OGLES2IntroducingPOD-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2IntroducingPrint3D-debug.apk" 
+	pkg: /data/local/tmp/OGLES2IntroducingPrint3D-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2IntroducingPVRShell-debug.apk" 
+	pkg: /data/local/tmp/OGLES2IntroducingPVRShell-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2IntroducingPVRTools-debug.apk" 
+	pkg: /data/local/tmp/OGLES2IntroducingPVRTools-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2Iridescence-debug.apk" 
+	pkg: /data/local/tmp/OGLES2Iridescence-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2LevelOfDetail-debug.apk" 
+	pkg: /data/local/tmp/OGLES2LevelOfDetail-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2LightMap-debug.apk" 
+	pkg: /data/local/tmp/OGLES2LightMap-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2MagicLantern-debug.apk" 
+	pkg: /data/local/tmp/OGLES2MagicLantern-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2Navigation-debug.apk" 
+	pkg: /data/local/tmp/OGLES2Navigation-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2Navigation3D-debug.apk" 
+	pkg: /data/local/tmp/OGLES2Navigation3D-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2ParallaxBumpMap-debug.apk" 
+	pkg: /data/local/tmp/OGLES2ParallaxBumpMap-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2ParticleSystem-debug.apk" 
+	pkg: /data/local/tmp/OGLES2ParticleSystem-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2PerturbedUvs-debug.apk" 
+	pkg: /data/local/tmp/OGLES2PerturbedUvs-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2PhantomMask-debug.apk" 
+	pkg: /data/local/tmp/OGLES2PhantomMask-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2PVRScopeExample-debug.apk" 
+	pkg: /data/local/tmp/OGLES2PVRScopeExample-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2PVRScopeRemote-debug.apk" 
+	pkg: /data/local/tmp/OGLES2PVRScopeRemote-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2Reflections-debug.apk" 
+	pkg: /data/local/tmp/OGLES2Reflections-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2Refraction-debug.apk" 
+	pkg: /data/local/tmp/OGLES2Refraction-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2RenderToTexture-debug.apk" 
+	pkg: /data/local/tmp/OGLES2RenderToTexture-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2Shaders-debug.apk" 
+	pkg: /data/local/tmp/OGLES2Shaders-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2ShadowMapping-debug.apk" 
+	pkg: /data/local/tmp/OGLES2ShadowMapping-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2ShadowVolume-debug.apk" 
+	pkg: /data/local/tmp/OGLES2ShadowVolume-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2Skinning-debug.apk" 
+	pkg: /data/local/tmp/OGLES2Skinning-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2Skybox2-debug.apk" 
+	pkg: /data/local/tmp/OGLES2Skybox2-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2StencilBuffer-debug.apk" 
+	pkg: /data/local/tmp/OGLES2StencilBuffer-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2Texturing-debug.apk" 
+	pkg: /data/local/tmp/OGLES2Texturing-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES2Water-debug.apk" 
+	pkg: /data/local/tmp/OGLES2Water-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3AlphaBlend-debug.apk" 
+	pkg: /data/local/tmp/OGLES3AlphaBlend-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3AlphaTest-debug.apk" 
+	pkg: /data/local/tmp/OGLES3AlphaTest-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3AnisotropicLighting-debug.apk" 
+	pkg: /data/local/tmp/OGLES3AnisotropicLighting-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3BasicTnL-debug.apk" 
+	pkg: /data/local/tmp/OGLES3BasicTnL-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3BinaryShader-debug.apk" 
+	pkg: /data/local/tmp/OGLES3BinaryShader-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3Bloom-debug.apk" 
+	pkg: /data/local/tmp/OGLES3Bloom-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3Bumpmap-debug.apk" 
+	pkg: /data/local/tmp/OGLES3Bumpmap-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3CellShading-debug.apk" 
+	pkg: /data/local/tmp/OGLES3CellShading-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3ChameleonMan-debug.apk" 
+	pkg: /data/local/tmp/OGLES3ChameleonMan-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3ComplexLighting-debug.apk" 
+	pkg: /data/local/tmp/OGLES3ComplexLighting-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3Coverflow-debug.apk" 
+	pkg: /data/local/tmp/OGLES3Coverflow-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3DeferredShading-debug.apk" 
+	pkg: /data/local/tmp/OGLES3DeferredShading-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3DisplacementMap-debug.apk" 
+	pkg: /data/local/tmp/OGLES3DisplacementMap-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3EdgeDetection-debug.apk" 
+	pkg: /data/local/tmp/OGLES3EdgeDetection-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3ExampleUI-debug.apk" 
+	pkg: /data/local/tmp/OGLES3ExampleUI-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3FastTnL-debug.apk" 
+	pkg: /data/local/tmp/OGLES3FastTnL-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3FilmTV-debug.apk" 
+	pkg: /data/local/tmp/OGLES3FilmTV-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3Fog-debug.apk" 
+	pkg: /data/local/tmp/OGLES3Fog-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3Fractal-debug.apk" 
+	pkg: /data/local/tmp/OGLES3Fractal-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3FresnelReflections-debug.apk" 
+	pkg: /data/local/tmp/OGLES3FresnelReflections-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3HelloAPI-debug.apk" 
+	pkg: /data/local/tmp/OGLES3HelloAPI-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3Instancing-debug.apk" 
+	pkg: /data/local/tmp/OGLES3Instancing-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3IntroducingPFX-debug.apk" 
+	pkg: /data/local/tmp/OGLES3IntroducingPFX-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3IntroducingPOD-debug.apk" 
+	pkg: /data/local/tmp/OGLES3IntroducingPOD-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3IntroducingPrint3D-debug.apk" 
+	pkg: /data/local/tmp/OGLES3IntroducingPrint3D-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3IntroducingPVRShell-debug.apk" 
+	pkg: /data/local/tmp/OGLES3IntroducingPVRShell-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3IntroducingPVRTools-debug.apk" 
+	pkg: /data/local/tmp/OGLES3IntroducingPVRTools-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3Iridescence-debug.apk" 
+	pkg: /data/local/tmp/OGLES3Iridescence-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3LevelOfDetail-debug.apk" 
+	pkg: /data/local/tmp/OGLES3LevelOfDetail-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3LightMap-debug.apk" 
+	pkg: /data/local/tmp/OGLES3LightMap-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3MagicLantern-debug.apk" 
+	pkg: /data/local/tmp/OGLES3MagicLantern-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3MultipleRenderTargets-debug.apk" 
+	pkg: /data/local/tmp/OGLES3MultipleRenderTargets-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3Navigation-debug.apk" 
+	pkg: /data/local/tmp/OGLES3Navigation-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3Navigation3D-debug.apk" 
+	pkg: /data/local/tmp/OGLES3Navigation3D-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3OcclusionQueries-debug.apk" 
+	pkg: /data/local/tmp/OGLES3OcclusionQueries-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3ParallaxBumpMap-debug.apk" 
+	pkg: /data/local/tmp/OGLES3ParallaxBumpMap-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3ParticleSystem-debug.apk" 
+	pkg: /data/local/tmp/OGLES3ParticleSystem-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3PerturbedUvs-debug.apk" 
+	pkg: /data/local/tmp/OGLES3PerturbedUvs-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3PhantomMask-debug.apk" 
+	pkg: /data/local/tmp/OGLES3PhantomMask-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3PVRScopeExample-debug.apk" 
+	pkg: /data/local/tmp/OGLES3PVRScopeExample-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3PVRScopeRemote-debug.apk" 
+	pkg: /data/local/tmp/OGLES3PVRScopeRemote-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3Reflections-debug.apk" 
+	pkg: /data/local/tmp/OGLES3Reflections-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3Refraction-debug.apk" 
+	pkg: /data/local/tmp/OGLES3Refraction-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3Shaders-debug.apk" 
+	pkg: /data/local/tmp/OGLES3Shaders-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3ShadowMapping-debug.apk" 
+	pkg: /data/local/tmp/OGLES3ShadowMapping-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3ShadowVolume-debug.apk" 
+	pkg: /data/local/tmp/OGLES3ShadowVolume-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3Skinning-debug.apk" 
+	pkg: /data/local/tmp/OGLES3Skinning-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3Skybox2-debug.apk" 
+	pkg: /data/local/tmp/OGLES3Skybox2-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3StencilBuffer-debug.apk" 
+	pkg: /data/local/tmp/OGLES3StencilBuffer-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3Texturing-debug.apk" 
+	pkg: /data/local/tmp/OGLES3Texturing-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3UniformBufferObjects-debug.apk" 
+	pkg: /data/local/tmp/OGLES3UniformBufferObjects-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\OGLES3Water-debug.apk" 
+	pkg: /data/local/tmp/OGLES3Water-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+install "G:\PVRSDK_OGLES3\CTS-debug.apk" 
+	pkg: /data/local/tmp/CTS-debug.apk
+Failure [INSTALL_FAILED_ALREADY_EXISTS]
+override r--r--r-- shell:shell for '/data/local/tmp/CTS-debug.apk'? 

@@ -5,6 +5,7 @@
 #log_filename:different_storage_performance_test.log
 #
 
+path=$(pwd)
 #remove temp files
 if test -e different_storage_performance_test.log
 then
@@ -83,7 +84,7 @@ echo "### Detect Mode ###" >> different_storage_copy-compare_test.log
 	echo "----------------------------------------------------" >> different_storage_copy-compare_test.log
 	echo "emmc part"
 	echo "emmc part" >> different_storage_copy-compare_test.log
-		sh /data/different_storage_performance_test/EMMC_performance_test.sh $sd_stat $usb_stat
+		sh EMMC_performance_test.sh $sd_stat $usb_stat $copy_num $cpfile_size
 	#SD part
 	echo "----------------------------------------------------"
 	echo "----------------------------------------------------" >> different_storage_copy-compare_test.log
@@ -91,7 +92,7 @@ echo "### Detect Mode ###" >> different_storage_copy-compare_test.log
 	echo "SD part" >> different_storage_copy-compare_test.log
 	if test sd_stat -eq 1
 	then
-		sh /data/different_storage_performance_test/SD_performance_test.sh $sd_stat $usb_stat
+		sh SD_performance_test.sh $sd_stat $usb_stat $copy_num $cpfile_size
 	else
 		echo "skip SD part"
 		echo "skip SD part" >> different_storage_copy-compare_test.log
@@ -103,7 +104,7 @@ echo "### Detect Mode ###" >> different_storage_copy-compare_test.log
 	echo "USB part" >> different_storage_copy-compare_test.log
 	if test usb_stat -eq 1
 	then
-		sh /data/different_storage_performance_test/USB_performance_test.sh $sd_stat $usb_stat
+		sh USB_performance_test.sh $sd_stat $usb_stat $copy_num $cpfile_size
 	else
 		echo "skip USB part"
 		echo "skip USB part" >> different_storage_copy-compare_test.log
@@ -127,7 +128,7 @@ echo "### Select Mode ###" >> different_storage_copy-compare_test.log
 		echo "----------------------------------------------------" >> different_storage_copy-compare_test.log
 		echo "emmc part"
 		echo "emmc part" >> different_storage_copy-compare_test.log
-			sh /data/different_storage_performance_test/EMMC_performance_test.sh $sd_stat $usb_stat;; 
+			sh EMMC_performance_test.sh $sd_stat $usb_stat $copy_num $cpfile_size;; 
 	2 ) echo "select 2 SD Card Test"
 		echo "select 2 SD Card Test" >> different_storage_copy-compare_test.log
 		echo "----------------------------------------------------"
@@ -142,7 +143,7 @@ echo "### Select Mode ###" >> different_storage_copy-compare_test.log
 				echo "init /storage/extsdcard/CPFILE folder"
 				echo "init /storage/extsdcard/CPFILE folder" >> different_storage_copy-compare_test.log
 			fi
-			sh /data/different_storage_performance_test/SD_performance_test.sh $sd_stat $usb_stat
+			sh SD_performance_test.sh $sd_stat $usb_stat $copy_num $cpfile_size
 		else
 			echo "error:can't find SD card"
 			echo "error:can't find SD card" >> different_storage_copy-compare_test.log
@@ -163,7 +164,7 @@ echo "### Select Mode ###" >> different_storage_copy-compare_test.log
 				echo "init /storage/usbdisk1/CPFILE folder"
 				echo "init /storage/usbdisk1/CPFILE folder" >> different_storage_copy-compare_test.log
 			fi
-			sh /data/different_storage_performance_test/USB_performance_test.sh $sd_stat $usb_stat
+			sh USB_performance_test.sh $sd_stat $usb_stat $copy_num $cpfile_size
 		else
 			echo "error:can't find USB"
 			echo "error:can't find USB" >> different_storage_copy-compare_test.log
@@ -176,14 +177,14 @@ echo "### Select Mode ###" >> different_storage_copy-compare_test.log
 		echo "----------------------------------------------------" >> different_storage_copy-compare_test.log
 		echo "emmc part"
 		echo "emmc part" >> different_storage_copy-compare_test.log
-			sh /data/different_storage_performance_test/EMMC_performance_test.sh $sd_stat $usb_stat
+			sh EMMC_performance_test.sh $sd_stat $usb_stat $copy_num $cpfile_size
 		echo "----------------------------------------------------"
 		echo "----------------------------------------------------" >> different_storage_copy-compare_test.log
 		echo "SD part"
 		echo "SD part" >> different_storage_copy-compare_test.log
 		if test sd_stat -eq 1
 		then
-			sh /data/different_storage_performance_test/SD_performance_test.sh $sd_stat $usb_stat
+			sh SD_performance_test.sh $sd_stat $usb_stat $copy_num $cpfile_size
 		else
 			echo "error:can't find SD card"
 			echo "error:can't find SD card" >> different_storage_copy-compare_test.log
@@ -196,14 +197,14 @@ echo "### Select Mode ###" >> different_storage_copy-compare_test.log
 		echo "----------------------------------------------------" >> different_storage_copy-compare_test.log
 		echo "emmc part"
 		echo "emmc part" >> different_storage_copy-compare_test.log
-			sh /data/different_storage_performance_test/EMMC_performance_test.sh $sd_stat $usb_stat
+			sh EMMC_performance_test.sh $sd_stat $usb_stat $copy_num $cpfile_size
 		echo "----------------------------------------------------"
 		echo "----------------------------------------------------" >> different_storage_copy-compare_test.log
 		echo "USB part"
 		echo "USB part" >> different_storage_copy-compare_test.log
 		if test usb_stat -eq 1
 		then
-			sh /data/different_storage_performance_test/USB_performance_test.sh $sd_stat $usb_stat
+			sh USB_performance_test.sh $sd_stat $usb_stat $copy_num $cpfile_size
 		else
 			echo "error:can't find USB"
 			echo "error:can't find USB" >> different_storage_copy-compare_test.log
@@ -224,7 +225,7 @@ echo "### Select Mode ###" >> different_storage_copy-compare_test.log
 		echo "SD part" >> different_storage_copy-compare_test.log
 		if test sd_stat -eq 1
 		then
-			sh /data/different_storage_performance_test/SD_performance_test.sh $sd_stat $usb_stat
+			sh SD_performance_test.sh $sd_stat $usb_stat $copy_num $cpfile_size
 		else
 			echo "error:can't find SD card"
 			echo "error:can't find SD card" >> different_storage_copy-compare_test.log
@@ -237,7 +238,7 @@ echo "### Select Mode ###" >> different_storage_copy-compare_test.log
 		echo "USB part" >> different_storage_copy-compare_test.log
 		if test usb_stat -eq 1
 		then
-			sh /data/different_storage_performance_test/USB_performance_test.sh $sd_stat $usb_stat
+			sh USB_performance_test.sh $sd_stat $usb_stat $copy_num $cpfile_size
 		else
 			echo "error:can't find USB"
 			echo "error:can't find USB" >> different_storage_copy-compare_test.log
@@ -250,14 +251,14 @@ echo "### Select Mode ###" >> different_storage_copy-compare_test.log
 		echo "----------------------------------------------------" >> different_storage_copy-compare_test.log
 		echo "emmc part"
 		echo "emmc part" >> different_storage_copy-compare_test.log
-			sh /data/different_storage_performance_test/EMMC_performance_test.sh $sd_stat $usb_stat
+			sh EMMC_performance_test.sh $sd_stat $usb_stat $copy_num $cpfile_size
 		echo "----------------------------------------------------"
 		echo "----------------------------------------------------" >> different_storage_copy-compare_test.log
 		echo "SD part"
 		echo "SD part" >> different_storage_copy-compare_test.log
 		if test sd_stat -eq 1
 		then
-			sh /data/different_storage_performance_test/SD_performance_test.sh $sd_stat $usb_stat
+			sh SD_performance_test.sh $sd_stat $usb_stat $copy_num $cpfile_size
 		else
 			echo "error:can't find SD card"
 			echo "error:can't find SD card" >> different_storage_copy-compare_test.log
@@ -270,7 +271,7 @@ echo "### Select Mode ###" >> different_storage_copy-compare_test.log
 		echo "USB part" >> different_storage_copy-compare_test.log
 		if test usb_stat -eq 1
 		then
-			sh /data/different_storage_performance_test/USB_performance_test.sh $sd_stat $usb_stat
+			sh USB_performance_test.sh $sd_stat $usb_stat $copy_num $cpfile_size
 		else
 			echo "error:can't find USB"
 			echo "error:can't find USB" >> different_storage_copy-compare_test.log

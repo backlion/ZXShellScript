@@ -42,9 +42,9 @@ do
 	echo "speed of $i time: $speed byte/s = `expr $speed / 1024` KB/s = `expr $speed / 1048576` MB/s"
 	echo "speed of $i time: $speed byte/s = `expr $speed / 1024` KB/s = `expr $speed / 1048576` MB/s" >> different_storage_copy-compare_test.log
 done
-speed=`expr $speed / $copy_num`
-echo "*** average speed : $speed ***"
-echo "*** average speed : $speed ***" >> different_storage_copy-compare_test.log
+speed=`expr $total / $copy_num`
+echo "*** average speed : $speed byte/s = `expr $speed / 1024` KB/s = `expr $speed / 1048576` MB/s ***"
+echo "*** average speed : $speed byte/s = `expr $speed / 1024` KB/s = `expr $speed / 1048576` MB/s ***" >> different_storage_copy-compare_test.log
 date
 date >> different_storage_copy-compare_test.log
 echo "finish emmc to emmc test"
@@ -84,9 +84,9 @@ then
 		echo "speed of $i time: $speed byte/s = `expr $speed / 1024` KB/s = `expr $speed / 1048576` MB/s"
 		echo "speed of $i time: $speed byte/s = `expr $speed / 1024` KB/s = `expr $speed / 1048576` MB/s" >> different_storage_copy-compare_test.log
 	done
-	speed=`expr $speed / $copy_num`
-	echo "*** average speed : $speed ***"
-	echo "*** average speed : $speed ***" >> different_storage_copy-compare_test.log
+	speed=`expr $total / $copy_num`
+	echo "*** average speed : $speed byte/s = `expr $speed / 1024` KB/s = `expr $speed / 1048576` MB/s ***"
+	echo "*** average speed : $speed byte/s = `expr $speed / 1024` KB/s = `expr $speed / 1048576` MB/s ***" >> different_storage_copy-compare_test.log
 	date
 	date >> different_storage_copy-compare_test.log
 	echo "finish emmc to SD test"
@@ -130,9 +130,9 @@ then
 		echo "speed of $i time: $speed byte/s = `expr $speed / 1024` KB/s = `expr $speed / 1048576` MB/s"
 		echo "speed of $i time: $speed byte/s = `expr $speed / 1024` KB/s = `expr $speed / 1048576` MB/s" >> different_storage_copy-compare_test.log
 	done
-	speed=`expr $speed / $copy_num`
-	echo "*** average speed : $speed ***"
-	echo "*** average speed : $speed ***" >> different_storage_copy-compare_test.log
+	speed=`expr $total / $copy_num`
+	echo "*** average speed : $speed byte/s = `expr $speed / 1024` KB/s = `expr $speed / 1048576` MB/s ***"
+	echo "*** average speed : $speed byte/s = `expr $speed / 1024` KB/s = `expr $speed / 1048576` MB/s ***" >> different_storage_copy-compare_test.log
 	date
 	date >> different_storage_copy-compare_test.log
 	echo "finish emmc to USB test"
