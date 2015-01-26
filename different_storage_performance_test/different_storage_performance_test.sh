@@ -1,6 +1,6 @@
 #Author：Issac Lin
 #Ext: 7536
-#version:1.0
+#version:1.1
 #different_storage_performance_test
 #log_filename:different_storage_performance_test.log
 #
@@ -32,8 +32,8 @@ then
 	rm -r /storage/usbdisk1/CPTEMP
 fi
 
-echo "different_storage_performance_test version: 1.0"
-echo "different_storage_performance_test version: 1.0"  >> different_storage_performance_test.log
+echo "different_storage_performance_test version: 1.1"
+echo "different_storage_performance_test version: 1.1"  >> different_storage_performance_test.log
 echo "remove temp files"
 echo "remove temp files" >> different_storage_performance_test.log
 #install busybox

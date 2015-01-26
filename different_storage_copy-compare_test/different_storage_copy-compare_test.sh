@@ -1,6 +1,6 @@
 #Author：Issac Lin
 #Ext: 7536
-#version:1.1
+#version:1.2
 #different_storage_copy-compare_test
 #log_filename:different_storage_copy-compare_test.log
 #
@@ -31,8 +31,8 @@ then
 	rm -r /storage/usbdisk1/CPTEMP
 fi
 
-echo "different_storage_copy-compare_test version: 1.1"
-echo "different_storage_copy-compare_test version: 1.1"  >> different_storage_copy-compare_test.log
+echo "different_storage_copy-compare_test version: 1.2"
+echo "different_storage_copy-compare_test version: 1.2"  >> different_storage_copy-compare_test.log
 echo "remove temp files"
 echo "remove temp files" >> different_storage_copy-compare_test.log
 #install busybox

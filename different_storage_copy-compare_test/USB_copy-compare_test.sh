@@ -1,8 +1,8 @@
 #Author：Issac Lin
 #Ext: 7536
-#version:1.1
-#different_storage_copy-compare_test
-#log_location:/data/ca7_PGandCG_stress.log
+#version:1.2
+#USB_copy-compare_test
+#part of different_storage_copy-compare_test
 #
 
 sd_stat=$1

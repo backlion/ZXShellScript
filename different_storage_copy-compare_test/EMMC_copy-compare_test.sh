@@ -1,6 +1,6 @@
 #Author：Issac Lin
 #Ext: 7536
-#version:1.1
+#version:1.2
 #EMMC_copy-compare_test
 #part of different_storage_copy-compare_test
 #
