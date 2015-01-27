@@ -28,7 +28,7 @@ do
 	date
 	date >> different_storage_performance_test.log
 	#(time cp -rf /storage/extsdcard/CPFILE /sdcard) 2>> different_storage_performance_test.log
-	cp_time=$((time cp -rf /storage/extsdcard/CPFILE /sdcard) 2>&1 | tee -a different_storage_performance_test.log | awk 'BEGIN {FS="m|s|\\."}{print $1*60*1000+$2*1000+$3}')
+	cp_time=$((time cp -rf /storage/extsdcard/CPFILE /sdcard) 2>&1 | tee -a different_storage_performance_test.log | awk 'BEGIN {FS="m|s|\\."}{print $1*60*1000+$2*1000+$3*10}')
 
 	if test $? -eq 0
 	then
@@ -69,7 +69,7 @@ do
 	date
 	date >> different_storage_performance_test.log
 	#(time cp -rf /storage/extsdcard/CPFILE /storage/extsdcard/CPTEMP) 2>> different_storage_performance_test.log
-	cp_time=$((time cp -rf /storage/extsdcard/CPFILE /storage/extsdcard/CPTEMP) 2>&1 | tee -a different_storage_performance_test.log | awk 'BEGIN {FS="m|s|\\."}{print $1*60*1000+$2*1000+$3}')
+	cp_time=$((time cp -rf /storage/extsdcard/CPFILE /storage/extsdcard/CPTEMP) 2>&1 | tee -a different_storage_performance_test.log | awk 'BEGIN {FS="m|s|\\."}{print $1*60*1000+$2*1000+$3*10}')
 
 	if test $? -eq 0
 	then
@@ -112,7 +112,7 @@ then
 		date
 		date >> different_storage_performance_test.log
 		#(time cp -rf /storage/extsdcard/CPFILE /storage/usbdisk1) 2>> different_storage_performance_test.log
-		cp_time=$((time cp -rf /storage/extsdcard/CPFILE /storage/usbdisk1) 2>&1 | tee -a different_storage_performance_test.log | awk 'BEGIN {FS="m|s|\\."}{print $1*60*1000+$2*1000+$3}')
+		cp_time=$((time cp -rf /storage/extsdcard/CPFILE /storage/usbdisk1) 2>&1 | tee -a different_storage_performance_test.log | awk 'BEGIN {FS="m|s|\\."}{print $1*60*1000+$2*1000+$3*10}')
 
 		if test $? -eq 0
 		then
