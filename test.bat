@@ -3,10 +3,10 @@
 ::version:1.0
 ::batch_install
 ::
+
 @echo off
-set a=10
-set b=5
-set /a c=%a%-%b%
+
+echo %~dp0
 ::if "%1"=="" echo "%%i"
 
 ::for %%i in (%1\*.apk) do echo "%%i" & echo "%%i"
@@ -14,7 +14,6 @@ set /a c=%a%-%b%
 ::adb install "%%i"
 ::adb install "%1" >> test.txt
 ::)
-echo %c%
 echo finish batch_install
 goto :end
 
