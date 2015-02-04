@@ -1,28 +1,20 @@
 #Author：Issac Lin
 #Ext: 7536
-#version:1.0
+#version:1.1
 #cci_loop
 #cci_loop.log
 #
 
-echo "cci_loop version: 1.0"
-echo "cci_loop version: 1.0"  >> cci_loop.log
-if test -e cci_loop.log
-then
-	rm cci_loop.log
-fi
-if test -z $1
-then
-	sleep_time=30
-else
-	sleep_time=$1
-fi
+echo "cci_loop version: 1.1"
 while true
 do
 	date
-	date >> cci_loop.log
-	echo cci > /sys/clk_util/clks
-	echo cci > /sys/clk_util/clks >> cci_loop.log
-	sleep $sleep_time
+	count=0
+	while test $count -lt 1000
+	do
+		let count++
+		echo cci > /sys/clk_util/clks
+	done
+	sleep 3600
 done
  
