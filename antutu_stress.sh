@@ -23,6 +23,6 @@ do
 	echo "run antutu Benchmark $LOOP time"
 	echo "run antutu Benchmark $LOOP time" >> antutu_stress.log
 	am start -n com.antutu.ABenchMark/com.antutu.benchmark.activity.ScoreBenchActivity
-	sleep 300
+	sleep 240
 done
  
