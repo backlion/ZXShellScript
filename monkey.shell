@@ -6,7 +6,7 @@ cd /sdcard/monkey
 cp Gallery2.apk /system/app/Gallery2/
 cp QuickSearchBox.apk /system/app/QuickSearchBox/
 cp Settings.apk /system/priv-app/Settings/
-cp mblacklist.txt /
+cp mblacklist.txt /sdcard
 chmod 644 /system/app/Gallery2/Gallery2.apk
 chmod 644 /system/app/QuickSearchBox/QuickSearchBox.apk
 chmod 644 /system/priv-app/Settings/Settings.apk
@@ -14,4 +14,5 @@ reboot
 
 logcat –v time &
 logcat –v time –b events > events_log &
-monkey --pkg-blacklist-file /sdcard/mblacklist.txt --throttle 1000 6000000 &
+monkey --pkg-blacklist-file /sdcard/mblacklist.txt --throttle 1000 10000000 &
+monkey --ignore-crashes --ignore-timeouts --monitor-native-crashes --throttle 1000 10000000 &
