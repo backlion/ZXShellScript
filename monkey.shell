@@ -12,6 +12,9 @@ chmod 644 /system/app/QuickSearchBox/QuickSearchBox.apk
 chmod 644 /system/priv-app/Settings/Settings.apk
 reboot
 
+cmd /c adb install C:\Users\issaclin\Desktop\5880apk\EffectsTest.apk
+cmd /c adb push C:\Users\issaclin\Desktop\monkey /sdcard/monkey
+
 logcat –v time &
 logcat –v time –b events > events_log &
 monkey --pkg-blacklist-file /sdcard/mblacklist.txt --throttle 1000 10000000 &

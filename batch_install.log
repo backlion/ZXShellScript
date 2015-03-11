@@ -1,3 +1,48 @@
-install "C:\Users\issaclin\Desktop\Chase\TheChase_V1_1.apk" 
-	pkg: /data/local/tmp/TheChase_V1_1.apk
+install "C:\Users\issaclin\Desktop\online-video\baiduvideo_gwxz_pc.apk" 
+	pkg: /data/local/tmp/baiduvideo_gwxz_pc.apk
+Success
+install "C:\Users\issaclin\Desktop\online-video\BesTV_AndroidPhone_20131126.apk" 
+	pkg: /data/local/tmp/BesTV_AndroidPhone_20131126.apk
+Success
+install "C:\Users\issaclin\Desktop\online-video\BiliPlayer3.apk" 
+	pkg: /data/local/tmp/BiliPlayer3.apk
+Success
+install "C:\Users\issaclin\Desktop\online-video\com.esvideo_115406233.apk" 
+	pkg: /data/local/tmp/com.esvideo_115406233.apk
+Success
+install "C:\Users\issaclin\Desktop\online-video\com.pplive.androidpad.apk" 
+	pkg: /data/local/tmp/com.pplive.androidpad.apk
+Success
+install "C:\Users\issaclin\Desktop\online-video\com.sohu.tv.apk" 
+	pkg: /data/local/tmp/com.sohu.tv.apk
+Success
+install "C:\Users\issaclin\Desktop\online-video\iqiyi-hd.apk" 
+	pkg: /data/local/tmp/iqiyi-hd.apk
+Success
+install "C:\Users\issaclin\Desktop\online-video\LetvClient_V5.6.3_From_102.apk" 
+	pkg: /data/local/tmp/LetvClient_V5.6.3_From_102.apk
+Success
+install "C:\Users\issaclin\Desktop\online-video\pps_am-qiyi3.apk" 
+	pkg: /data/local/tmp/pps_am-qiyi3.apk
+Success
+install "C:\Users\issaclin\Desktop\online-video\PPTV_aPhone_4.1.6_pptv_20150115.apk" 
+	pkg: /data/local/tmp/PPTV_aPhone_4.1.6_pptv_20150115.apk
+Success
+install "C:\Users\issaclin\Desktop\online-video\qiyi.196.apk" 
+	pkg: /data/local/tmp/qiyi.196.apk
+Success
+install "C:\Users\issaclin\Desktop\online-video\SohuTV_4.6.2_47_201501041727.apk" 
+	pkg: /data/local/tmp/SohuTV_4.6.2_47_201501041727.apk
+Success
+install "C:\Users\issaclin\Desktop\online-video\TencentVideo_V3.8.0.6182_51.apk" 
+	pkg: /data/local/tmp/TencentVideo_V3.8.0.6182_51.apk
+Success
+install "C:\Users\issaclin\Desktop\online-video\tudoushipinHD_20.apk" 
+	pkg: /data/local/tmp/tudoushipinHD_20.apk
+Success
+install "C:\Users\issaclin\Desktop\online-video\Tudou_Phone_tudouweb.apk" 
+	pkg: /data/local/tmp/Tudou_Phone_tudouweb.apk
+Success
+install "C:\Users\issaclin\Desktop\online-video\Youku_Phone_youkuweb.apk" 
+	pkg: /data/local/tmp/Youku_Phone_youkuweb.apk
 Success
