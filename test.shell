@@ -1,0 +1,4 @@
+monkey --pkg-blacklist-file /sdcard/mblacklist.txt --throttle 1000 10000000 &
+cmd /c ping -n 30 127.1>nul
+input tap 505 585
+input tap 1300 720
