@@ -1,5 +1,6 @@
 cmd /c adb wait-for-device install C:\Users\issaclin\Desktop\5880apk\PowerAlwaysOn.apk
 cmd /c adb install C:\Users\issaclin\Desktop\5880apk\GFXBench_3_0_11_GL_Android_Binary_Corporate_855.apk
+//cmd /c adb push C:\Users\issaclin\Desktop\stress_0407 /sdcard/
 cmd /c adb push C:\Users\issaclin\Desktop\5880apk\stresstest_gfx_3.0.11_gl_manhattan_new.sh /sdcard/
 cmd /c adb shell am start -n com.example.poweralwayson/.PowerAlwaysOnActivity
 //cmd /c adb shell logcat -v time & 
