@@ -46,7 +46,6 @@ Sub Main
 	crt.Screen.Send "sleep 1" & chr(13)
 	crt.Screen.WaitForString "shell@elite2000:/"
 	crt.Screen.Send "input keyevent 3" & chr(13)
-	crt.Screen.Send "sleep 1" & chr(13)
 	crt.Screen.WaitForString "shell@elite2000:/"
-	crt.Screen.Send "sh /sdcard/monkey/monkey.sh 0" & chr(13)
+	crt.Screen.Send "logcat -v time &" & chr(13)
 End Sub
